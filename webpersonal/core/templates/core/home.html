@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% extends 'core/base.html'%}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {% block title %} Portada {% endblock %}
+
+    {% block background %} {% load static %} {% static 'core/img/home2-bg.jpg' %} {% endblock %}
+    
+</head>
+<body>
+    {% block headers %}
+        <h1>Ader Frederich Suarez Mera</h1>
+        <span class="subheading">Estudiante de ingenieria</span>
+    {% endblock %}
+</body>
+</html>
